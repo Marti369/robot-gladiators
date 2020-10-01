@@ -19,3 +19,23 @@ function fight() {
     window.alert("The fight has begun " + playerName + "!");
 }
 //fight()
+
+
+
+var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
+console.log(enemyNames);
+console.log(enemyNames.length);
+console.log(enemyNames[enemyNames.length - 2]);
+for (var i = 0; i < 3; i++) {
+    console.log("apple", i);
+}
+
+for (var x = 0; x < enemyNames.length; x++) {
+    console.log(enemyNames[x])
+}
+
+for (var i = 0; i < enemyNames.length; i++) {
+    console.log(enemyNames[i]);
+    console.log(i);
+    console.log(enemyNames[i] + " is at " + i + " index");
+}
